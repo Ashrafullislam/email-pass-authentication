@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './SignUp.css';
 
 
 function Register() {
@@ -89,18 +90,18 @@ const verifyEmail = () =>{
   })
 }
   return (
-    <div className='w-50 mx-auto bg-secondary px-5 ' >
-        <h2 className='text-center'> Sign Up Now </h2>
+    <div className='signUp' >
+        <h2 className='text-center text-light'> Sign Up Now </h2>
         <Form  onSubmit={handleRegister} >
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label className='text-light'>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" name="email" required />
      
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-      <p className=' text-light'> Password type: Uppercase,Special-Character,Digit must give atleast 6 character   </p>
-        <Form.Label>Password</Form.Label>
+      <p className=' text-secondary'> Password type: Uppercase,Special-Character,Digit must give atleast 6 character   </p>
+        <Form.Label className='text-light'>Password</Form.Label>
         <Form.Control type="password" title='If you given 6 characters,you will not see the successfully created account remove password and write again ' placeholder="Password" name='password' required />
       </Form.Group>
       <p className='text-danger' > {errorPassword} </p>
@@ -110,7 +111,7 @@ const verifyEmail = () =>{
       </Button>
      
       <Button variant='danger' type='reset' style={{marginLeft:'20px'}} > Reset </Button>
-     <p className='text-white pb-5'> You have already an account ? <Link to= '/Login' className='text-info' >Log in here </Link> </p>
+     <p className='text-white pb-5 mt-3'> You have already an account ? <Link to= '/Login' className='text-info' >Log in here </Link> </p>
       <ToastContainer
             position="top-center"
             autoClose={1500}

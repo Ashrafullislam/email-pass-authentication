@@ -1,0 +1,13 @@
+.signUp{
+    width: 50%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0 auto;
+    background-color: #01017a;
+    box-shadow: 18px 15px 37px 0px rgba(3, 2, 5, 0.7);
+}
+@media screen and (min-width: 300px) and (max-width:868px){
+    .signUp{
+        width: 90%;
+    }
+}

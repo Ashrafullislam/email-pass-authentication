@@ -8,6 +8,14 @@
     width: 50%;
     height: auto;
     padding: 30px;
-    background-color:rgb(52, 1, 16);
+    background-color:#2d55ff;
+    box-shadow: 18px 15px 37px 0px rgba(3, 2, 5, 0.7);
+    
 
+}
+@media screen and (min-width:300px) and (max-width:868px){
+    .login{
+        width: 90%;
+        
+    }  
 }
