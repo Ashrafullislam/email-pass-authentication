@@ -1,5 +1,5 @@
 # Email-Password-Varification and Reset a new Password if user forget her password
-# Projects create steps:{
+# Projects create steps:
 #.npx-create-react-app project name 
 #.go to firebase > go to console and click create a projects
 #.Register the app
