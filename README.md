@@ -14,3 +14,4 @@
 #.See the firebase docs> authentication > Manage user to control verify 
 #.install react-router-dom to toggole signup to log in 
 
+# add -redirects file and write the text inner the  -redirects file /*/index.html 200 it will given public folder  innner
