@@ -5,8 +5,8 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='header'>
-            <Link to='/SignUp' > Sign up </Link>
-            <Link to='/Login' > Log in</Link>            
+            <Link to='/SignUp' activeClassName = 'active' > Sign up </Link>
+            <Link to='/Login' activeClassName = 'active' > Log in</Link>            
         </div>
     );
 };
