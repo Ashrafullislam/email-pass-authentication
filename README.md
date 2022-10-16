@@ -1,6 +1,6 @@
 # Email-Password-Varification and Reset a new Password if user forget her password
 @ Projects create steps:{
-A.npx-create-react-app project name 
+$.npx-create-react-app project name 
 B.go to firebase > go to console and click create a projects
 C.Register the app
 D.Click one  app>Authentication>Signin method>enable email-verification>
